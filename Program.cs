@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Taller3dSemana3
 {
     internal class Program
     {
+        private Figure figure;
         static void Main(string[] args)
         {
             List<Figure> figures = new List<Figure>();
@@ -66,6 +64,7 @@ namespace Taller3dSemana3
                         exit = true;
                         Environment.Exit(0);
                         break;
+
                     default:
                         Console.WriteLine("\nValor no reconocido.");
                         break;
