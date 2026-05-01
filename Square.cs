@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Taller3dSemana3
 {
-    internal class Program
+    internal class Square : Rectangle
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

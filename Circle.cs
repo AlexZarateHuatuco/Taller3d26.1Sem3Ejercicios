@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Taller3dSemana3
 {
-    internal class Program
+    internal class Circle : Figure
     {
-        static void Main(string[] args)
-        {
-        }
+        
     }
 }

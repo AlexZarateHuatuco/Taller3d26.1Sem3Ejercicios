@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Taller3dSemana3
 {
-    internal class Program
+    internal class Figure
     {
-        static void Main(string[] args)
+        protected string name;
+        public virtual float GetArea()
         {
+
         }
     }
 }
